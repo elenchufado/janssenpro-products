@@ -13,8 +13,7 @@ Most of the times you add those classes to <li> or <div> tags. Example in the <l
 
 <!-- COPY THE FOLLOWING STYLE GUIDE AT THE BEGINNING OF EACH PRODUCT YOU UPLOAD -->
 <!-- STYLES AT THE BEGINNING -->
-<style type="text/css">
-  .product-page{
+<style type="text/css">.product-page{
        text-align: justify;
   }
   h3{
@@ -29,8 +28,29 @@ Most of the times you add those classes to <li> or <div> tags. Example in the <l
     display: block;
     width: 80px;
 }
-table{
+.product-table th{
   text-align: center;
+}
+.product-table{
+  text-align: center;
+}
+tr th {
+    border: 0;
+    border-bottom: 2px solid #462b74!important;
+}
+th:first-child {
+    color: #462b74;
+}
+th:nth-child(3) {
+    background: #d1d1d1;
+    text-align: center;
+    border-bottom: 0;
+}
+.product-table {
+    border-left: 0;
+    border-right: 0;
+    border-top: 2px solid #462b74;
+    border-bottom: 2px solid #462b74;
 }
 .ext {
     display: inline-block;
@@ -53,6 +73,21 @@ table{
 .panel-collapse{
      background-color: #e8e8e8;
      padding: 20px;
+}
+body.product_page .page-wrapper .region-content article .product_page .product-page .row-2 .indication-body .product-body-tabs .tab-content-wrappeer .tab-content .col-md-12 .pro-mono-wrapper p.product-mono-para a.product-monograph {
+    display: block;
+    background: #1c75bc;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: KarbonRegular;
+    font-size: 17px;
+    padding: 10px 25px;
+    width: 271px;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: auto;
 }
 @media only screen and (max-width: 991px) and (min-width: 768px){
   body.product_page .page-wrapper .content-region .region-content article .product-page .row-4 .box-details-dalinvi-wrap .indication-body .product-body-tabs .read-more-content-wrappeer .tab-content{
