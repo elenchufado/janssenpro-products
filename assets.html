@@ -88,7 +88,7 @@ Most of the times you add those classes to <li> or <div> tags. Example in the <l
         padding: 20px;
     }
 
-    body.product_page .page-wrapper .region-content article .product_page .product-page .row-2 .indication-body .product-body-tabs .tab-content-wrappeer .tab-content .col-md-12 .pro-mono-wrapper p.product-mono-para a.product-monograph {
+    body.product_page .page-wrapper .region-content article .product_page .product-page .row-2 .indication-body .product-body-tabs .tab-content-wrappeer .tab-content .col-md-12 .pro-mono-wrapper p.product-mono-para a.product-monograph, body.product_page .page-wrapper .region-content article .product_page .product-page .row-2 .indication-body .product-body-tabs .tab-content-wrappeer .tab-content .col-md-4 .pro-mono-wrapper p.product-mono-para a.product-monograph {
         display: block;
         background: #1c75bc;
         color: #fff;
@@ -102,7 +102,7 @@ Most of the times you add those classes to <li> or <div> tags. Example in the <l
         cursor: pointer;
         text-decoration: none;
         margin: auto;
-    }
+}
 
     @media only screen and (max-width: 991px) and (min-width: 768px) {
         body.product_page .page-wrapper .content-region .region-content article .product-page .row-4 .box-details-dalinvi-wrap .indication-body .product-body-tabs .read-more-content-wrappeer .tab-content {
@@ -325,6 +325,32 @@ Most of the times you add those classes to <li> or <div> tags. Example in the <l
 </div>
 <!-- using bootstrap -->
 <!-- 2 COLUMMNS WITH EXTRA CONTENT IN NEXT ROW -->
+
+
+
+<!-- 2 COLUMMNS WHEN YOU NEED AN "IPP" BUTTON AND EXTRA CONTENT-->
+<!-- the IPP button is a callout -->
+<!-- using bootstrap -->
+<div class="row">
+    <div class="col-md-11">
+        <h3>Title</h3>
+        <br> <!-- space -->
+        <div class="row">
+            <div class="col-md-8">
+                <p>LEFT TEXT HERE</p>
+            </div>
+            <div class="col-md-4">
+              <div class="pro-mono-wrapper">
+                  <p class="product-mono-para">
+                      [api:file-resource[210326,{"format":"link","cssClass":"product-monograph","text":"DESCARGAR IPP","target":"_blank"}]/] <!-- This is an example -->
+                  </p>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- using bootstrap -->
+<!-- 2 COLUMMNS WHEN YOU NEED AN "IPP" BUTTON AND EXTRA CONTENT -->
 
 
 
